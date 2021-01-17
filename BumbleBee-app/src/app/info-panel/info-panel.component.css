@@ -1,0 +1,11 @@
+.info-panel-content {
+  width: 180px;
+  max-width: 180px;
+  padding: 10px;
+  border: solid 1px rgb(218, 213, 213);
+}
+
+.info-icon {
+  position: relative;
+  top: 15px;
+}

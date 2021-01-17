@@ -1,0 +1,15 @@
+.table-panel-content {
+  background-color: rgb(255, 255, 255);
+  max-width: 660px;
+  height: 100%;
+  font-size: 0.7rem;
+  border: gray solid 1px;
+}
+
+.table-panel-body {
+  padding: 10px 10px 0 10px;
+}
+
+tr {
+  border-bottom: 0px;
+}

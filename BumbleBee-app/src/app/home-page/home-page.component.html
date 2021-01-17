@@ -1,0 +1,46 @@
+<div class="page-container" style="background-color: rgb(201, 199, 196);">
+    <div class="page-content" style="max-width: 800px; background-color: antiquewhite;">
+        <div style="border-bottom: solid 1px darkgrey;">
+            <img  src="../../assets/beelogo.jpg"  alt="...">
+        </div>
+        <div class="info-panels-row ">
+            
+                <app-info-panel class="info-panel" [title]="'TOTAL DISTANCE'"  ></app-info-panel>
+                <!-- <app-info-panel2 [title]="'TOTAL DISTANCE'"  ></app-info-panel2> -->
+           
+                <app-info-panel class="info-panel info-panel-middle" [title]="'TOTAL REPETITIONS'" ></app-info-panel>
+                <!-- <app-info-panel2 [title]="'TOTAL REPETITIONS'" ></app-info-panel2> -->
+           
+                <app-info-panel class="info-panel" class="info-panel panel"></app-info-panel>
+                <!-- <app-info-panel2 class="info-panel panel"></app-info-panel2> -->
+            
+           
+        </div>
+        <div class="map-weather-row ">
+                    <app-map-panel class="map-panel "></app-map-panel>
+                
+               
+                    <app-weather-panel class="weather-panel"></app-weather-panel>
+          
+          
+           
+        </div>
+  
+        <app-table-panel class="table-panel"></app-table-panel>
+        <!-- <agm-map [latitude]="lat" [longitude]="lng" style="height: 400px;"></agm-map> -->
+        <!-- <angular-weather-widget
+             APIKEY="b5e1bfc5b4cd71083ec7dcf0b3c89b45">
+        </angular-weather-widget>
+        <angular-weather-widget
+        APIKEY="b5e1bfc5b4cd71083ec7dcf0b3c89b45"
+        [width]="'180px'"
+        [height]="'auto'"
+        [locationFontSize]="'17px'"
+        [statusFontSize]="'9px'"
+        [tempratureFontSize]="'35px'"
+        [weatherImageWidth]="'20px'"
+        [weatherImageHeight]="'20px'">
+   </angular-weather-widget> -->
+    </div>
+
+</div>
